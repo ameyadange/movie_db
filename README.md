@@ -8,25 +8,25 @@ It uses the TMDB database with 5000 movies (https://www.kaggle.com/datasets/tmdb
 movie_db % python3 movie_recommender.py "The Godfather"
 
 # Output
-Loading movie data...\\
-Movies dataset shape: (4803, 20)\\
-Credits dataset shape: (4803, 4)\\
-Available columns in credits dataset: ['movie_id', 'title', 'cast', 'crew']\\
-Using 'movie_id' as 'id' column for credits dataset\\
-Merging datasets...\\
-Successfully merged datasets: 4803 movies\\
-Preprocessing data...\\
-Preprocessing movie features...\\
-Using 'original_title' as 'title' column\\
-Extracting genres...\\
-Extracting cast...\\
-Extracting directors...\\
-Preprocessing complete. Dataset has 4803 movies.\\
-Calculating similarity matrix...\\
-Ready! Loaded 4803 movies successfully!\\
-\nRecommendations for: The Godfather: Part III (1990)\\
-Genres: Crime, Drama, Thriller\\
-Rating: 7.1/10\\
+Loading movie data...\
+Movies dataset shape: (4803, 20)\
+Credits dataset shape: (4803, 4)\
+Available columns in credits dataset: ['movie_id', 'title', 'cast', 'crew']\
+Using 'movie_id' as 'id' column for credits dataset
+Merging datasets...
+Successfully merged datasets: 4803 movies
+Preprocessing data...
+Preprocessing movie features...
+Using 'original_title' as 'title' column
+Extracting genres...
+Extracting cast...
+Extracting directors...
+Preprocessing complete. Dataset has 4803 movies.
+Calculating similarity matrix...
+Ready! Loaded 4803 movies successfully!
+\nRecommendations for: The Godfather: Part III (1990)
+Genres: Crime, Drama, Thriller
+Rating: 7.1/10
 
  1. The Godfather: Part II (1974)
      Genres: Drama, Crime
