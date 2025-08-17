@@ -4,11 +4,10 @@ This is a CLI-based movie recommendation app that uses content-based filtering t
 It uses the TMDB database with 5000 movies (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?resource=download&select=tmdb_5000_movies.csv)
 
 
-## Input
+# Input
 movie_db % python3 movie_recommender.py "The Godfather"
 
-## Output
-
+# Output
 Loading movie data...
 Movies dataset shape: (4803, 20)
 Credits dataset shape: (4803, 4)
@@ -28,7 +27,7 @@ Ready! Loaded 4803 movies successfully!
 \nRecommendations for: The Godfather: Part III (1990)
 Genres: Crime, Drama, Thriller
 Rating: 7.1/10
---------------------------------------------------------------------------------
+
  1. The Godfather: Part II (1974)
      Genres: Drama, Crime
      Rating: 8.3/10 | Similarity: 0.554
