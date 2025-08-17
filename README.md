@@ -26,7 +26,7 @@ Calculating similarity matrix...\
 Ready! Loaded 4803 movies successfully!\
 \nRecommendations for: The Godfather: Part III (1990)\
 Genres: Crime, Drama, Thriller\
-Rating: 7.1/10\
+Rating: 7.1/10
 
  1. The Godfather: Part II (1974)
      Genres: Drama, Crime
