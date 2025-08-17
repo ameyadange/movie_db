@@ -7,7 +7,7 @@ It uses the TMDB database with 5000 movies (https://www.kaggle.com/datasets/tmdb
 ## Input
 movie_db % python3 movie_recommender.py "The Godfather"
 
-## Output:
+## Output
 
 Loading movie data...
 Movies dataset shape: (4803, 20)
